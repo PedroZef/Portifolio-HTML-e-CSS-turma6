@@ -19,6 +19,11 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
+
+img {
+    border-radius: 30px; 
+}
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -105,6 +110,7 @@ body{
 }
 
 @media (max-width: 1200px) {
+
     .cabecalho{
          padding: 10%;  
     }
@@ -121,7 +127,7 @@ body{
     }
 
     .rodape {
-        background-color: darkolivegreen;
-        color: blue;
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria)
     }
 }
